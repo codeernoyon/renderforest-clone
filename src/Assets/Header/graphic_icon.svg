@@ -1,0 +1,9 @@
+<svg id="Graphic_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="square" transform="translate(5 5)">
+    <path id="Path_15809" data-name="Path 15809" d="M71.555,103.994,76.8,98.806l1.728,1.7-5.262,5.2Zm0,0" transform="translate(-69.633 -97.244)" fill="#fff"/>
+    <path id="Path_15810" data-name="Path 15810" d="M286.238,1.827a.4.4,0,0,0,0-.57L285.1.118a.4.4,0,0,0-.57,0l-.854.854,1.709,1.709Zm0,0" transform="translate(-275.888 0)" fill="#fff"/>
+    <path id="Path_15811" data-name="Path 15811" d="M14.822,269.82a.4.4,0,0,0-.1.157l-.57,1.708a.4.4,0,0,0,.509.509l1.709-.569a.4.4,0,0,0,.157-.1l.285-.285-1.709-1.708Zm0,0" transform="translate(-13.755 -262.136)" fill="#fff"/>
+    <path id="Path_15812" data-name="Path 15812" d="M13.742.058a.41.41,0,0,0-.447.089L.12,13.321a.41.41,0,0,0,.29.7h2.9v-.41a.41.41,0,0,1,.82,0v.41h2.46v-.41a.41.41,0,0,1,.82,0v.41h2.46v-.41a.41.41,0,0,1,.82,0v.41h2.9a.41.41,0,0,0,.41-.41V.436A.409.409,0,0,0,13.742.058ZM11.507,11.124a.41.41,0,0,1-.41.41H6.376a.41.41,0,0,1-.29-.7l4.721-4.749a.41.41,0,0,1,.7.29Zm0,0" transform="translate(0.001 -0.025)" fill="#fff"/>
+  </g>
+  <rect id="Rectangle_21677" data-name="Rectangle 21677" width="24" height="24" fill="none"/>
+</svg>

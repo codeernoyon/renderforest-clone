@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Video_icon" transform="translate(5 6.083)">
+    <g id="Component_220_3" data-name="Component 220 – 3" transform="translate(-5 -6.083)">
+      <g id="Video" transform="translate(5 6)">
+        <path id="Video-2" data-name="Video" d="M2.879,11A2.8,2.8,0,0,1,0,8.022V2.978A2.8,2.8,0,0,1,2.879,0H6.934A2.8,2.8,0,0,1,9.813,2.978V8.022A2.8,2.8,0,0,1,6.934,11ZM12.57,9.255l-1.036-.548a1.2,1.2,0,0,1-.622-1.069V3.361a1.194,1.194,0,0,1,.622-1.067l1.037-.549a.931.931,0,0,1,.961.047A1.063,1.063,0,0,1,14,2.685V8.315a1.062,1.062,0,0,1-.468.894.948.948,0,0,1-.52.158A.934.934,0,0,1,12.57,9.255Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_21673" data-name="Rectangle 21673" width="24" height="24" fill="none"/>
+    </g>
+  </g>
+</svg>

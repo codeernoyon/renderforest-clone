@@ -1,13 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-family: "Caveat", cursive;
+}
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizeing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* =======------ Hrader -------======== */
+.navItemPopUpGradientVideo {
+  background: linear-gradient(
+    180deg,
+    rgba(7, 209, 237, 1) 0%,
+    rgba(6, 93, 135, 1) 84%
+  );
+}
+.navItemPopUpGradientWebsite {
+  background: linear-gradient(
+    180deg,
+    rgba(231, 7, 237, 1) 0%,
+    rgba(79, 6, 135, 1) 71%
+  );
+}
+.navItemPopUpGradientLogo {
+  background: linear-gradient(
+    0deg,
+    rgba(182, 140, 0, 1) 0%,
+    rgba(247, 205, 115, 1) 100%
+  );
+}
+.navItemPopUpGradientMokeUp {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 182, 144, 1) 0%,
+    rgba(145, 216, 238, 1) 100%
+  );
+}
+.navItemPopUpGradientDesign {
+  background: linear-gradient(
+    0deg,
+    rgba(182, 0, 68, 1) 0%,
+    rgba(238, 145, 225, 1) 100%
+  );
+}
+/* =======------ popUp -------======== */
+
+.popUp {
+  display: none;
+  transition: 0.5 ease-in-out !import;
+}
+.navItem:hover .popUp {
+  display: block;
+  transition: 0.5 ease-in-out !import;
+}
+
+/* ======---- Hover -----====== */
+.navItem .icon {
+  transform: rotate(0deg);
+  transition: all 0.2s linear;
+}
+.navItem:hover .icon {
+  transform: rotate(180deg);
+  transition: transform 0.2s linear;
+}
+/* -----==== SVG LOGO ====--------- */
+.size {
+  width: 30px;
+}
+.cls__11 {
+  fill: #5690ff;
+  opacity: 0.47;
+  isolation: isolate;
+}
+.cls__22 {
+  fill: url(#linear-gradient1);
+}
+
+/* ---------===== Button =====------- */
+.btn {
+  background: linear-gradient(
+    90deg,
+    rgba(110, 3, 210, 1) 0%,
+    rgba(140, 66, 214, 1) 100%
+  );
 }

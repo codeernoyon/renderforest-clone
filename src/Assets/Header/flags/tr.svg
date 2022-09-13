@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_21672" data-name="Rectangle 21672" width="30" height="30" rx="15" transform="translate(2829 1217)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tr" transform="translate(-2829 -1217)" clip-path="url(#clip-path)">
+    <g id="tr-2" data-name="tr" transform="translate(2829 1217)">
+      <path id="Path_25889" data-name="Path 25889" d="M0,0H30V30H0Z" fill="#e30a17" fill-rule="evenodd"/>
+      <path id="Path_27023" data-name="Path 27023" d="M10522.623-4451.013a7.569,7.569,0,0,1-7.622-7.5,7.378,7.378,0,0,1,2.23-5.3,7.633,7.633,0,0,1,5.386-2.191,7.635,7.635,0,0,1,6.475,3.522,6.143,6.143,0,0,0-4.563-2.021,6.052,6.052,0,0,0-6.095,5.994,6.052,6.052,0,0,0,6.095,5.994,6.157,6.157,0,0,0,4.538-1.989A7.629,7.629,0,0,1,10522.623-4451.013Z" transform="translate(-10509.809 4473.975)" fill="#fff"/>
+      <path id="Path_25892" data-name="Path 25892" d="M331.548,204.2l-.059,2.771-2.59.7,2.549.908-.059,2.537,1.658-1.98,2.514.867-1.453-2.127,1.77-2.115-2.719.75Z" transform="translate(-309.629 -192.235)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

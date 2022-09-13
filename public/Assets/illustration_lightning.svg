@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="128" viewBox="0 0 95 128">
+  <defs>
+    <filter id="sparkle" x="33.259" y="28.567" width="20.862" height="20.862" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.502" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_22015" data-name="Rectangle 22015" width="95" height="128" transform="translate(0.245 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#978af6"/>
+      <stop offset="1" stop-color="#534ac3"/>
+    </linearGradient>
+    <filter id="Path_23403">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.502" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Lightning_illustration" transform="translate(-704.114 -573.895)">
+    <g data-type="innerShadowGroup">
+      <path id="sparkle-2" data-name="sparkle" d="M7.431,0A7.431,7.431,0,1,1,0,7.431,7.431,7.431,0,0,1,7.431,0Z" transform="matrix(-0.616, 0.788, -0.788, -0.616, 758.235, 611.612)" fill="#f560b6"/>
+      <g transform="matrix(1, 0, 0, 1, 704.11, 573.9)" filter="url(#sparkle)">
+        <path id="sparkle-3" data-name="sparkle" d="M7.431,0A7.431,7.431,0,1,1,0,7.431,7.431,7.431,0,0,1,7.431,0Z" transform="matrix(-0.62, 0.79, -0.79, -0.62, 54.12, 37.72)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Lightning" transform="translate(703.87 573.895)" clip-path="url(#clip-path)">
+      <g id="Group_83763" data-name="Group 83763" transform="translate(-9.257 29.607) rotate(-2)">
+        <g data-type="innerShadowGroup">
+          <path id="Path_23403-2" data-name="Path 23403" d="M7.925,58.83A7.889,7.889,0,0,1,1.82,55.946a7.985,7.985,0,0,1,1.05-11.205L29.853,22.294a7.894,7.894,0,0,1,11.077.966l2.708,3.19L64.512,9.206A7.895,7.895,0,0,1,75.67,10.312l2.2,2.7L91.008,1.875a7.894,7.894,0,0,1,11.161.952,7.984,7.984,0,0,1-.947,11.214L81.94,30.383a7.894,7.894,0,0,1-11.234-1.041l-2.264-2.778L47.689,43.707a7.894,7.894,0,0,1-11.056-.983l-2.69-3.169L12.972,57A7.868,7.868,0,0,1,7.925,58.83Z" transform="matrix(0.891, -0.454, 0.454, 0.891, 0, 47.231)" fill="url(#linear-gradient)"/>
+          <g transform="matrix(1, 0.03, -0.03, 1, 10.53, -29.26)" filter="url(#Path_23403)">
+            <path id="Path_23403-3" data-name="Path 23403" d="M7.925,58.83A7.889,7.889,0,0,1,1.82,55.946a7.985,7.985,0,0,1,1.05-11.205L29.853,22.294a7.894,7.894,0,0,1,11.077.966l2.708,3.19L64.512,9.206A7.895,7.895,0,0,1,75.67,10.312l2.2,2.7L91.008,1.875a7.894,7.894,0,0,1,11.161.952,7.984,7.984,0,0,1-.947,11.214L81.94,30.383a7.894,7.894,0,0,1-11.234-1.041l-2.264-2.778L47.689,43.707a7.894,7.894,0,0,1-11.056-.983l-2.69-3.169L12.972,57A7.868,7.868,0,0,1,7.925,58.83Z" transform="matrix(0.87, -0.48, 0.48, 0.87, -7.85, 76.81)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
