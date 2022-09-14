@@ -99,3 +99,74 @@ code {
     rgba(140, 66, 214, 1) 100%
   );
 }
+.heroBtn {
+  background: linear-gradient(
+    180deg,
+    rgba(126, 68, 250, 1) 0%,
+    rgba(93, 0, 207, 1) 100%
+  );
+}
+
+/* ----====== Hero text gradient animation =====------*/
+.heroTextGradient {
+  background-image: linear-gradient(
+    90deg,
+    rgba(190, 3, 210, 1) 0%,
+    rgba(96, 34, 228, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  line-height: 41.6px;
+  animation: gradient 6s ease 0s infinite normal forwards;
+}
+@keyframes gradient {
+  0% {
+    background-image: linear-gradient(
+      90deg,
+      rgba(190, 3, 210, 1) 0%,
+      rgba(96, 34, 228, 1) 100%
+    );
+    transition: background-image 3s ease-in-out;
+  }
+
+  50% {
+    background-image: linear-gradient(
+      360deg,
+      rgba(190, 3, 210, 1) 0%,
+      rgba(96, 34, 228, 1) 100%
+    );
+    transition: background-image 3s ease-in-out;
+  }
+
+  100% {
+    background-image: linear-gradient(
+      90deg,
+      rgba(190, 3, 210, 1) 0%,
+      rgba(96, 34, 228, 1) 100%
+    );
+    transition: background-image 3s ease-in-out;
+  }
+}
+/* -----===== Hero Vedio ======------ */
+.video_to_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 11px);
+  height: calc(100% + 1px);
+  border: none;
+}
+.videoGradient {
+  background: linear-gradient(
+    135deg,
+    #b577f9 0,
+    #f282c4 25%,
+    #b577f9 50%,
+    #f282c4 75%,
+    #b577f9 100%
+  );
+}
+/* tailwind components */
+@layer components {
+}

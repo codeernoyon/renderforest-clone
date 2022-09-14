@@ -1,10 +1,10 @@
-import { Headers } from "./app/sections";
+import { Headers, Hero } from "./app/sections";
 
 function App() {
   return (
     <>
       <Headers />
-      {/* <Hero /> */}
+      <Hero />
     </>
   );
 }

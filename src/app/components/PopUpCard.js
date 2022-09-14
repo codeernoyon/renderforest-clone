@@ -2,10 +2,10 @@ import React from "react";
 
 const PopUpCard = ({ topItem, items, bottomItem }) => {
   return (
-    <div className="py-4">
+    <div className="py-4 bg-slate-50 shadow-xl  rounded-md">
       {/* ----==== Top Area ====----- */}
       <div className="px-5 border-b-2 pb-3 border-b-slate-300">
-        <div className="flex items-center px-4 py-3 rounded-lg hover:bg-slate-300 transition duration-500">
+        <div className="flex items-center px-4 py-3 rounded-lg hover:bg-slate-200 transition duration-500">
           <div
             className={`flex justify-center items-center p-1 rounded-xl mr-5 ${topItem.backGround} `}
           >
